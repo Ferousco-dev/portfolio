@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, DM_Sans, Caveat } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/nav";
@@ -6,6 +6,7 @@ import Grain from "@/components/grain";
 import Splash from "@/components/splash";
 import { Footer } from "@/components/ui/footer-section";
 import { siteUrl } from "@/lib/profile";
+import PersonSchema from "@/components/person-schema";
 
 const fraunces = Fraunces({
   variable: "--font-display",
@@ -63,6 +64,14 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#faf6ee" },
+    { media: "(prefers-color-scheme: dark)", color: "#181611" },
+  ],
+  colorScheme: "light",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -74,6 +83,7 @@ export default function RootLayout({
       className={`${fraunces.variable} ${dmSans.variable} ${caveat.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
+        <PersonSchema />
         <Splash />
         <Grain />
         <Nav />
