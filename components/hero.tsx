@@ -27,6 +27,7 @@ export default function Hero() {
             <span className="block">
               <SplitText text="Oresajo" delay={700} />
               <span
+                aria-hidden="true"
                 className="char inline-block text-accent"
                 style={{ animationDelay: "940ms" }}
               >
@@ -114,14 +115,11 @@ export default function Hero() {
             <dl className="space-y-4">
               {stats.map((stat) => (
                 <div key={stat.label} className="flex items-baseline gap-3">
-                  <dt className="sr-only">{stat.label}</dt>
-                  <dd className="flex items-baseline gap-3">
-                    <span className="font-display text-2xl leading-none text-ink">
-                      {stat.value}
-                    </span>
-                    <span className="text-[13px] leading-snug text-ink-faint">
-                      {stat.label}
-                    </span>
+                  <dt className="font-display text-2xl leading-none text-ink">
+                    {stat.value}
+                  </dt>
+                  <dd className="text-[13px] leading-snug text-ink-faint">
+                    {stat.label}
                   </dd>
                 </div>
               ))}

@@ -9,7 +9,6 @@ import { Footer } from "@/components/ui/footer-section";
 const fraunces = Fraunces({
   variable: "--font-display",
   subsets: ["latin"],
-  axes: ["SOFT", "WONK"],
 });
 
 const dmSans = DM_Sans({

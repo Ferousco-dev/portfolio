@@ -12,17 +12,19 @@ export default function SplitText({
   className,
 }: SplitTextProps) {
   return (
-    <span className={className} aria-label={text}>
-      {text.split("").map((char, i) => (
-        <span
-          key={`${char}-${i}`}
-          aria-hidden="true"
-          className="char inline-block"
-          style={{ animationDelay: `${delay + i * step}ms` }}
-        >
-          {char === " " ? " " : char}
-        </span>
-      ))}
+    <span className={className}>
+      <span className="sr-only">{text}</span>
+      <span aria-hidden="true">
+        {text.split("").map((char, i) => (
+          <span
+            key={`${char}-${i}`}
+            className="char inline-block"
+            style={{ animationDelay: `${delay + i * step}ms` }}
+          >
+            {char === " " ? " " : char}
+          </span>
+        ))}
+      </span>
     </span>
   );
 }
