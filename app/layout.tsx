@@ -5,6 +5,7 @@ import Nav from "@/components/nav";
 import Grain from "@/components/grain";
 import Splash from "@/components/splash";
 import { Footer } from "@/components/ui/footer-section";
+import { siteUrl } from "@/lib/profile";
 
 const fraunces = Fraunces({
   variable: "--font-display",
@@ -22,7 +23,7 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://feranmi.dev"),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Feranmi Oresajo — Mobile & web developer",
     template: "%s — Feranmi Oresajo",
@@ -58,6 +59,7 @@ export const metadata: Metadata = {
       "Flutter, Next.js and React. Building AppMD, shipped ClassBook to the Play Store, 2026 hackathon winner.",
     creator: "@fer_nmi",
   },
+  alternates: { canonical: "/" },
   robots: { index: true, follow: true },
 };
 
