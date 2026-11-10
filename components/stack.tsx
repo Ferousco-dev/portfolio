@@ -10,7 +10,7 @@ const groups = [
   },
   {
     label: "Backend",
-    items: ["Node.js", "Express", "REST APIs", "JWT auth", "Go", "Python"],
+    items: ["Node.js", "Express", "REST APIs", "JWT auth", "Paystack", "Payaza", "Go", "Python"],
   },
   {
     label: "Database",

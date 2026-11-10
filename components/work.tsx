@@ -117,6 +117,7 @@ const projects: Project[] = [
     blurb:
       "An AI team member for live meetings that knows when to talk and when not to. Joins by voice, tracks who is speaking, and takes part only as far as the rules allow. Deterministic code owns the floor, permissions and tools; the model only proposes.",
     tech: ["Python", "Gemini Live", "PostgreSQL", "Voice AI"],
+    logo: "/logos/tara.png",
     href: "https://github.com/Ferousco-dev/Tara",
     hrefLabel: "GitHub",
     note: "Python backend",
