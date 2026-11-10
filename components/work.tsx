@@ -31,6 +31,16 @@ const projects: Project[] = [
     tilt: "-0.5deg",
   },
   {
+    name: "Forge",
+    blurb:
+      "A job marketplace for Nigeria's blue-collar workers. I built the Flutter worker app: nearby jobs on Google Maps, GPS-verified clock-in that only works on site and inside the shift window, wallet and withdrawals, and push notifications. Hackathon team project with a NestJS API.",
+    tech: ["Flutter", "Riverpod", "Geolocator", "Google Maps", "FCM"],
+    href: "https://github.com/hackathon-by-hgs/Forge",
+    hrefLabel: "GitHub",
+    note: "GPS + payments",
+    tilt: "0.5deg",
+  },
+  {
     name: "MyDrop",
     blurb:
       "Move files between a Mac and an Android phone over Wi-Fi. Speaks Quick Share, adds a Finder Share entry, clipboard sync, notification mirroring and your phone's files in Finder. A native Swift app on one side, Kotlin and Compose on the other.",
@@ -68,6 +78,7 @@ const projects: Project[] = [
     blurb:
       "A multimodal payment network: NFC tap, QR and identity-based transfers, so it adapts to whatever the environment allows. Payaza integration for real transactions and a record of every one.",
     tech: ["Flutter", "Dart", "NFC", "Payaza"],
+    logo: "/logos/tappay.png",
     href: "https://github.com/Ferousco-dev/TapPay-policy",
     hrefLabel: "About TapPay",
     note: "hackathon winner",
@@ -82,15 +93,6 @@ const projects: Project[] = [
     href: "https://github.com/Ferousco-dev/fhare",
     hrefLabel: "GitHub",
     tilt: "0.4deg",
-  },
-  {
-    name: "Forge",
-    blurb:
-      "For Nigeria's blue-collar gig workers. Nearby jobs, GPS clock-in, instant pay on clock-out, and a portable credit record that unlocks loans. Built with dignity in mind.",
-    tech: ["Flutter", "Dart", "GPS"],
-    href: "https://github.com/hackathon-by-hgs/Forge",
-    hrefLabel: "GitHub",
-    tilt: "0.5deg",
   },
   {
     name: "SpectraSense",
