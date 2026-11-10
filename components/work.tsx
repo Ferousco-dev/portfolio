@@ -46,6 +46,7 @@ const projects: Project[] = [
     blurb:
       "Course reps and classmates share PDFs and materials in one place. Your course PDFs become an organised, searchable study library you can read, highlight and keep in sync with your class.",
     tech: ["Flutter", "Dart"],
+    logo: "/logos/classbook.png",
     href: profile.classbook,
     hrefLabel: "Get the app",
     note: "on Play Store",
