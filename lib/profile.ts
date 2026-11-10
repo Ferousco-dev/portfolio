@@ -11,7 +11,7 @@ export const siteUrl =
 export const profile = {
   name: "Feranmi Oresajo",
   fullName: "Oluwaferanmi Oresajo",
-  role: "Mobile & web developer",
+  role: "Mobile software engineer · Swift, Kotlin, Flutter",
   brand: "Ferousco",
   location: "Lagos, Nigeria",
   email: "feranmioresajo@gmail.com",
@@ -22,16 +22,23 @@ export const profile = {
   xHandle: "fer_nmi",
   linkedin: "https://www.linkedin.com/in/oluwaferanmi-oresajo",
   resume: "/resume.pdf",
-  classbook: "https://github.com/Ferousco-dev/classbook-releases/releases",
+  classbook: "https://play.google.com/store/apps/details?id=com.orastudy.orastudy",
 };
 
 export const stats = [
-  { value: "1,818", label: "commits since December" },
-  { value: "100+", label: "repositories" },
-  { value: "1", label: "app on the Play Store" },
+  { value: "5,000+", label: "users on TestFlow" },
+  { value: "1,500+", label: "active users" },
+  { value: "3", label: "mobile stacks: Swift, Kotlin, Flutter" },
 ];
 
 export const milestones = [
+  {
+    year: "Now",
+    title: "Software Engineer, TestFlow",
+    detail:
+      "Engineering a computer-based testing platform used by 5,000+ students, 1,500+ of them active. Flutter app, PWA and a Node API with auth, timed exams, auto-save and analytics.",
+    kind: "Work",
+  },
   {
     year: "2026",
     title: "Hackathon winner",

@@ -41,7 +41,7 @@ export default function Hero() {
             <span className="block">
               and{" "}
               <span className="highlight text-ink">
-                I do not write your backend.
+                the APIs they talk to.
               </span>
             </span>
           </p>
@@ -89,15 +89,10 @@ export default function Hero() {
 
           <ul className="mt-5 space-y-4">
             <li>
-              <a
-                href={profile.site}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block"
-              >
-                <span className="block text-[15px] text-ink">AppMD</span>
+              <a href="#work" className="group block">
+                <span className="block text-[15px] text-ink">TestFlow</span>
                 <span className="block text-[13px] leading-6 text-ink-faint">
-                  APK in, documentation out
+                  engineering it for 5,000+ students
                 </span>
               </a>
             </li>

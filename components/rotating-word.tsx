@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from "react";
 
 const words = [
   "Flutter apps",
-  "Next.js sites",
-  "AI tooling",
+  "Kotlin apps",
+  "Swift apps",
   "things that ship",
 ];
 

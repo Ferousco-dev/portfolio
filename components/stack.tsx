@@ -4,15 +4,25 @@ import TechLoop from "./tech-loop";
 
 const groups = [
   {
-    label: "Frontend",
-    items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"],
+    label: "Mobile",
+    items: ["Flutter", "Dart", "Riverpod", "Kotlin", "Jetpack Compose", "Swift", "Google Maps", "NFC", "BLE"],
+    note: "my main thing",
   },
-  { label: "Mobile", items: ["Flutter", "Dart"], note: "actively learning" },
-  { label: "Backend", items: ["PHP", "Node.js", "Express", "Python"], note: "enough to be useful" },
-  { label: "Database", items: ["MySQL", "Supabase", "Firebase", "Appwrite"], note: "MySQL strongest" },
+  {
+    label: "Backend",
+    items: ["Node.js", "Express", "REST APIs", "JWT auth", "Go", "Python"],
+  },
+  {
+    label: "Database",
+    items: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Supabase", "Room"],
+  },
+  {
+    label: "Frontend",
+    items: ["TypeScript", "React", "Next.js", "Tailwind CSS", "PWA"],
+  },
   {
     label: "Tools",
-    items: ["Git", "GitHub", "VS Code", "Vercel", "Netlify", "Cloudinary", "ImageKit"],
+    items: ["Git", "GitHub", "Android Studio", "Xcode", "Vercel", "Cloudinary"],
   },
 ];
 
@@ -26,7 +36,7 @@ export default function Stack() {
               <h3 className="inline-block font-display text-lg leading-8 text-ink">
                 {group.label}
               </h3>
-              {group.label === "Frontend" && (
+              {group.label === "Mobile" && (
                 <UnderlineDoodle className="mt-0.5 block h-2 w-24 text-accent/60" />
               )}
               {group.note && (

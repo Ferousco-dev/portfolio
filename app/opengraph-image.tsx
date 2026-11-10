@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "nodejs";
-export const alt = "Feranmi Oresajo — Mobile & web developer";
+export const alt = "Feranmi Oresajo — Mobile software engineer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -45,7 +45,7 @@ export default async function OpengraphImage() {
               textTransform: "uppercase",
             }}
           >
-            Mobile &amp; web developer
+            Mobile software engineer
           </div>
 
           <div

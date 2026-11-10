@@ -18,13 +18,14 @@ export default function Contact() {
         <div>
           <Reveal>
             <p className="reveal-up max-w-[24ch] text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.3] tracking-[-0.02em] text-ink">
-              Open to frontend work, Flutter builds, and things slightly beyond
-              what I have done before.
+              Open to mobile builds: Flutter, Kotlin and Swift, from first
+              screen to the store.
             </p>
           </Reveal>
 
           <p className="mt-6 max-w-[52ch] text-lg leading-8 text-ink-muted">
-            That last kind is usually the most interesting. Still no backends.
+            Ride-hailing, payments, fintech, campus and health apps are my
+            favourite kind. Tell me what you are building and when you need it.
           </p>
 
           <Reveal delay={100}>
