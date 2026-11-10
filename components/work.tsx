@@ -83,15 +83,6 @@ const projects: Project[] = [
     tilt: "0.4deg",
   },
   {
-    name: "AnonPro",
-    blurb:
-      "An anonymous social platform: posts, private chat, stories, media uploads. The one that taught me auth, realtime, storage, and how to structure an app that keeps growing.",
-    tech: ["Flutter", "Dart", "Supabase"],
-    href: "https://github.com/Ferousco-dev/ANONPRO",
-    hrefLabel: "GitHub",
-    tilt: "-0.5deg",
-  },
-  {
     name: "Forge",
     blurb:
       "For Nigeria's blue-collar gig workers. Nearby jobs, GPS clock-in, instant pay on clock-out, and a portable credit record that unlocks loans. Built with dignity in mind.",
@@ -117,6 +108,7 @@ const projects: Project[] = [
     tech: ["Go", "PostgreSQL", "Redis", "SMTP", "REST API", "Docker"],
     href: "https://github.com/Ferousco-dev/Mailx",
     hrefLabel: "GitHub",
+    logo: "/logos/mailx.png",
     note: "Go backend",
     tilt: "0.6deg",
   },
